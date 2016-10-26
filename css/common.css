@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/* Infomind Default CSS : Last Update : 2016-07-14 */
+
+
+/*font*/
+
+html {
+    font-size: 14px;
+}
+body {
+    font-family: "Malgun Gothic", 맑은고딕, sans-serif;
+    color: #333;
+}
+
+/*button*/
+
+.btn-area {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 10px;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/*button Size*/
+
+.btn.btnS {
+    padding: 8px 16px;
+}
+.btn.btnM {
+    padding: 12px 30px;
+    font-size: 16px;
+}
+.btn.btnB {
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn.btnF {
+    width: 100%;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*button Color*/
+
+.btn.default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn.main {
+    background-color: #ff6600;
+}
+.btn.sub {
+    background-color: #333;
+}
+.btn.extra {
+    background-color: #e2e2e2;
+    color: #666;
+}
