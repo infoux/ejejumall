@@ -1,4 +1,36 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/NanumGothic-Bold.eot);
+    src: url(../fonts/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/NanumGothic-Bold.woff) format('woff'), url(../font/NanumGothic-Bold.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/NanumGothic-Regular.eot);
+    src: url(../fonts/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'), url(../fonts/NanumGothic-Regular.woff) format('woff'), url(../font/NanumGothic-Regular.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/NanumGothic-Light.eot);
+    src: url(../fonts/NanumGothic-Light.eot?#iefix) format('embedded-opentype'), url(../fonts/NanumGothic-Light.woff) format('woff'), url(../font/NanumGothic-Light.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 800;
+    src: url(../fonts/NanumGothic-ExtraBold.eot);
+    src: url(../fonts/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'), url(../fonts/NanumGothic-ExtraBold.woff) format('woff'), url(../font/NanumGothic-ExtraBold.ttf) format('truetype')
+}
+
 
 /* Infomind Default CSS Reset : Last Update : 2016-07-13 */
 
@@ -14,43 +46,53 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block
 }
+
 html, body {
     height: 100%;
 }
+
 body {
     line-height: 1;
     word-break: break-all;
     -ms-word-break: break-all;
     -webkit-text-size-adjust: none
 }
+
 ol, ul, dl, li, menu {
     list-style: none
 }
+
 blockquote, q {
     quotes: none
 }
+
 blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0
 }
+
 textarea {
     overflow: auto
 }
+
 input, select, textarea, button, optgroup {
     font-size: 100%;
     vertical-align: middle;
@@ -59,15 +101,23 @@ input, select, textarea, button, optgroup {
     border-radius: 0;
     margin: 0;
 }
+
+button {
+    cursor:pointer;
+}
+
 em, address {
     font-style: normal;
 }
 
+
 /* Hyper Link */
 
 a, a:link, a:visited, a:active, a:hover {
-    text-decoration: none
+    text-decoration: none;
+    color: #333;
 }
+
 
 /* Form Type (html5 & Mobile) */
 
@@ -78,18 +128,23 @@ input[type='text'], input[type='password'], input[type='submit'], input[type='se
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0
 }
+
 input[type='checkbox'] {
     -webkit-appearance: checkbox
 }
+
 input[type='radio'] {
     -webkit-appearance: radio
 }
+
 input[type='number'] {
     -webkit-appearance: none
 }
+
 input[type='search']::-webkit-search-cancel-button {
     -webkit-appearance: none
 }
+
 
 /* Hidden */
 
@@ -103,6 +158,7 @@ input[type='search']::-webkit-search-cancel-button {
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+
 .sr-only-focusable:active, .sr-only-focusable:focus {
     position: static;
     width: auto;
