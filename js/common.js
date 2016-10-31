@@ -34,4 +34,28 @@ $(document).ready(function() {
           pager:false
       });
 
+      $(".navigation p a").on('click', function() {
+          $(".navigation .category ul").css("display", "none")
+          $(this).parent().parent().find("ul").css("display", "block");
+      });
+
+        $("section.product .sort p a").on('click', function() {
+            $("section.product .sort p a").removeClass("active");
+            $(this).addClass("active");
+            $("section.product .container #list").removeClass();
+            $("section.product .container #list").addClass($(this).attr("data"));
+        });
+
+        $("div.select input").on('click', function() {
+            $(".info-text .select ul").css('display', 'none');
+            $(this).parent().find('ul').css('display','block');
+
+        });
+        $("div.select li a").on('click', function() {
+            $(".info-text .select ul").css('display', 'none');
+            $(this).parent().parent().parent().find('input').attr("value", $(this).text());
+
+        });
+
+
 });
