@@ -600,8 +600,34 @@ section.best .best-category li a {
     cursor:pointer;
 }
 
+section.best .best-category .category01 {
+    background: url('../images/icon-best01.png') no-repeat center top;
+}
+
+section.best .best-category .category02 {
+    background: url('../images/icon-best02.png') no-repeat center top;
+}
+
+section.best .best-category .category03 {
+    background: url('../images/icon-best03.png') no-repeat center top;
+}
+
+section.best .best-category .category04 {
+    background: url('../images/icon-best04.png') no-repeat center top;
+}
+
+section.best .best-category .category05 {
+    background: url('../images/icon-best05.png') no-repeat center top;
+}
+
+section.best .best-category .category06 {
+    background: url('../images/icon-best06.png') no-repeat center top;
+}
+
 section.best .best-category li a.active {
-    background:#fd9713;
+    background-color:#fd9713;
+    background-position:center bottom;
+    color:#fff;
 
 }
 
@@ -1081,7 +1107,7 @@ section.quick .cart strong {
 
 section.quick .top a {
     display:block;
-    border-top:1px solid #eee;
+    background:#efefef;
     height:34px;
     line-height:34px;
 }
