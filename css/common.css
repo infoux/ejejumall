@@ -1020,6 +1020,72 @@ section.foot-banner li{
     width:calc(100% / 5);
 }
 
+section.quick {
+    display:block;
+    position:fixed;
+    z-index:600;
+    left:calc(50% + 540px);
+    background:#fff;
+    top:75px;
+    width:100px;
+    height:auto;
+    border:1px solid #eee;
+    text-align:center;
+
+}
+
+section.quick h4 {
+    border-bottom:1px solid #eee;
+    height:34px;
+    line-height:34px;
+}
+
+section.quick .btn-prev a,
+section.quick .btn-next a {
+    display:block;
+    font-size:0;
+    padding:4px 0;
+    background:#efefef;
+}
+section.quick .btn-prev i,
+section.quick .btn-next i {
+    font-size:14px;
+}
+section.quick ul {
+    margin-top:10px;
+}
+section.quick li {
+    margin-bottom:10px;
+}
+section.quick img {
+    width:60px;
+    height:60px;
+}
+
+section.quick .cart a {
+    display:block;
+    padding:20px 0;
+}
+
+section.quick .cart i {
+    font-size:50px;
+    display:block;
+    color:#999;
+    margin-bottom:10px;
+}
+
+section.quick .cart strong {
+    font-weight:600;
+    color:#c83c3b;
+}
+
+section.quick .top a {
+    display:block;
+    border-top:1px solid #eee;
+    height:34px;
+    line-height:34px;
+}
+
 
 
 /*footer*/
