@@ -60,7 +60,7 @@ body {
 }
 
 .btn.btnB {
-    padding: 16px 40px;
+    padding: 16px 36px;
     font-size: 16px;
     font-weight: 600;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 .btn.main {
-    background-color: #ff6600;
+    background-color: #dd2a2a;
     color: #fff;
 }
 
@@ -1549,8 +1549,9 @@ section.view-top {
     font-size:0;
 }
 
-section.view-top {
-
+section.view-top .container {
+    border:1px solid #eee;
+    border-top:none;
 }
 
 section.view-top .big-image,
@@ -1559,14 +1560,60 @@ section.view-top .info-text {
     vertical-align:top;
 }
 
-section.view-top .big-image img {
+section.view-top .big-image .big img {
     width:320px;
     height:320px;
 }
 
+section.view-top .big-image ul {
+    text-align:center;
+}
+
+section.view-top .big-image li {
+    display:inline-block;
+    margin:10px 2px;
+}
+
+section.view-top .big-image li img {
+    width:60px;
+    height:60px;
+}
+
+
+section.view-top .big-image li.btn-prev,
+section.view-top .big-image li.btn-next {
+    margin:10px 0;
+    vertical-align:top;
+}
+
+section.view-top .big-image li.btn-prev a,
+section.view-top .big-image li.btn-next a {
+    display:block;
+    color:#999;
+    padding:6px;
+    height:60px;
+    line-height:60px;
+    background:#eee;
+}
+
+section.view-top .big-image li.btn-prev i,
+section.view-top .big-image li.btn-next i {
+    font-size:18px;
+
+}
+
+section.view-top .big-image li.btn-prev.active a,
+section.view-top .big-image li.btn-next.active a {
+    color:#333;
+}
+
 section.view-top .info-text {
-    width:500px;
+    width:540px;
+    min-height:542px;
     padding:20px 30px;
+    border:1px solid #eee;
+    border-top:none;
+    border-bottom:none;
 }
 
 #content.sub .info-text h3 {
@@ -1663,6 +1710,7 @@ section.view-top .info-text {
     height:28px;
     line-height:28px;
     background:#efefef;
+    color:#555;
 }
 
 #content.sub .info-text .count p {
@@ -1670,6 +1718,260 @@ section.view-top .info-text {
     padding-left:30px;
 }
 
+#content.sub .info-text .result .btn-set {
+    text-align:center;
+}
+
+#content.sub .info-text .result a {
+    margin-right:8px;
+}
+
+#content.sub .info-text .result a:last-child {
+    margin-right:0;
+}
+
+#content.sub .info-text .result .default {
+    font-size:0;
+
+}
+
+#content.sub .info-text .result p {
+    display:block;
+    position:relative;
+    font-size:16px;
+    background:#efefef;
+    padding:24px;
+    margin:20px 0;
+}
+
+#content.sub .info-text .result p strong {
+    position:absolute;
+    right:24px;
+    top:20px;
+    font-size:22px;
+    font-weight:600;
+    color:#dd2a2a;
+}
+
+#content.sub .info-text .result .default i {
+    font-size:18px;
+}
+
+#content.sub .recommend {
+    display:inline-block;
+    width:158px;
+    font-size:14px;
+
+    text-align:center;
+
+
+}
+
+#content.sub .recommend h4 {
+    font-size:14px;
+    margin:0;
+    padding:10px 0;
+    background:#eee;
+}
+
+#content.sub .recommend ul {
+    margin-top:20px;
+}
+
+#content.sub .recommend li {
+    padding-bottom:14px;
+    margin-bottom:14px;
+    border-bottom:1px solid #eee;
+    font-size:12px;
+}
+
+#content.sub .recommend li:last-child {
+    border:none;
+}
+
+#content.sub .recommend img {
+    width:100px;
+    height:100px;
+    margin-bottom:6px;
+}
+
+#content.sub .recommend p.price {
+    font-weight:600;
+    padding-top:2px;
+}
+
+section.sub-recopick {
+    margin:40px 0;
+}
+
+section.sub-recopick .insert {
+    border:2px solid #eee;
+    height:160px;
+}
+
+#content.sub ul.tabs {
+    font-size:0;
+    margin:30px 0;
+}
+
+#content.sub ul.tabs li {
+    display:inline-block;
+    width:calc(100% / 4);
+    height:50px;
+    text-align:center;
+    line-height:50px;
+
+}
+
+#content.sub ul.tabs li a {
+    display:block;
+    font-size:16px;
+    width:100%;
+    height:100%;
+    border:1px solid #eee;
+    border-left:none;
+}
+
+#content.sub ul.tabs li:first-child a {
+    border-left:1px solid #eee;
+}
+
+#content.sub ul.tabs li a.active {
+    border-color:transparent;
+    background:#fd9713;
+}
+
+#content.sub ul.tabs li a:hover {
+    border-color:transparent;
+    background:#eee;
+}
+#content.sub ul.tabs li a.active:hover {
+    border-color:transparent;
+    background:#fd7c13;
+}
+
+
+#content.sub .content {
+    margin:20px 0 60px;
+    line-height:1.6;
+}
+
+#content.sub #delivery .content {
+    border:2px solid #eee;
+    padding:0 30px 30px;
+}
+
+#content.sub #delivery .content h4 {
+    text-align:center;
+}
+
+#content.sub #delivery .content li {
+    padding-left:120px;
+    position:relative;
+    min-height:90px;
+}
+
+#content.sub #delivery .content li i {
+    display:block;
+    position:absolute;
+    left:20px;
+    top:-6px;
+    width:70px;
+    height:70px;
+    text-align:center;
+    line-height:70px;
+    border-radius:50%;
+    background:#555;
+    font-size:24px;
+    color:#fff;
+}
+
+#content.sub #delivery .content li strong {
+    font-weight:600;
+    color:#2e7ee1;
+}
+
+
+
+#content.sub table.view-comment {
+    width:100%;
+    text-align:center;
+    border-top:2px solid #555;
+}
+
+#content.sub table.view-comment th {
+    border-bottom:1px solid #ccc;
+    padding:10px 0;
+    background:#efefef;
+    font-weight:600;
+    font-size:12px;
+}
+
+#content.sub table.view-comment td {
+    border-bottom:1px solid #efefef;
+    padding:10px 0;
+}
+
+#content.sub table.view-comment td.num {
+    width:60px;
+    font-size:12px;
+    font-weight:600;
+    color:#555;
+}
+
+#content.sub table.view-comment td.text {
+    text-align:left;
+    width:560px;
+}
+
+#content.sub table.view-comment td.re-ok {
+    color:#2e7ee1;
+}
+
+#content.sub i.fa-star {color:#ccc;}
+#content.sub i.fa-star.on {color:#fd9713;}
+
+#content.sub .btn-area.comment {
+    padding:30px;
+    text-align:center;
+}
+
+#content.sub .reply-write {
+    display:none;
+    border:2px solid #eee;
+    padding:20px;
+    font-size:0;
+}
+
+#content.sub .reply-write h5 {
+    display:inline-block;
+    padding-right:20px;
+    font-size:16px;
+    font-weight:600;
+    vertical-align:middle;
+}
+#content.sub .reply-write button {
+    font-size:20px;
+    background:none;
+    vertical-align:top;
+}
+#content.sub .reply-write textarea {
+    background:#efefef;
+    width:876px;
+    height:100px;
+}
+
+#content.sub .reply-write .btn {
+    background:#333;
+    border-radius:0;
+    font-size:14px;
+    width:100px;
+    height:100px;
+}
+
+#content.sub .reply-write .stars button {
+    margin-right:2px;
+}
 
 div.quick {
     display:block;
@@ -1684,6 +1986,10 @@ div.quick {
     border:1px solid #eee;
     text-align:center;
 
+}
+
+#content.sub div.quick {
+    top:226px;
 }
 
 div.quick h4 {

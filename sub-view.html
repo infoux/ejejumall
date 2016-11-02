@@ -119,7 +119,15 @@
         <section class="view-top">
             <div class="container">
                 <div class="big-image">
-                    <li><img src="http://www.gifpng.com/320x320" alt="상품명"></li>
+                    <p class="big"><img src="http://www.gifpng.com/320x320" alt="상품명"></p>
+                    <ul>
+                        <li class="btn-prev"><a href="#"><i class="fa fa-caret-left" aria-hidden="true"></i>이전</a></li>
+                        <li><img src="http://www.gifpng.com/60x60" alt="상품명"></li>
+                        <li><img src="http://www.gifpng.com/60x60" alt="상품명"></li>
+                        <li><img src="http://www.gifpng.com/60x60" alt="상품명"></li>
+                        <li><img src="http://www.gifpng.com/60x60" alt="상품명"></li>
+                        <li class="btn-next active"><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>다음</a></li>
+                    </ul>
                 </div>
                 <div class="info-text">
                     <h3>감귤/레드향/황금향</h3>
@@ -183,11 +191,306 @@
                             </div>
                         </dd>
                     </dl>
-
+                    <div class="result">
+                        <p class="">총 합계금액<strong>15,000원</strong></p>
+                        <div class="btn-set">
+                            <a class="btn btnB main" href="">바로구매하기</a>
+                            <a class="btn btnB sub" href="">장바구니담기</a>
+                            <a class="btn btnB default" href=""><i class="fa fa-heart-o" aria-hidden="true"></i>관심상품등록</a>
+                        </div>
+                    </div>
                 </div>
-
+                <div class="recommend">
+                    <h4>카테고리내 인기상품</h4>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <p class="images"><img src="http://www.gifpng.com/100x100" alt="상품명"></p>
+                                <p class="name">백도라지분말차</p>
+                                <p class="price">15,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="images"><img src="http://www.gifpng.com/100x100" alt="상품명"></p>
+                                <p class="name">백도라지분말차</p>
+                                <p class="price">15,000원</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="images"><img src="http://www.gifpng.com/100x100" alt="상품명"></p>
+                                <p class="name">백도라지분말차</p>
+                                <p class="price">15,000원</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
+
+        <section class="sub-recopick">
+            <div class="container">
+                <h4>맞춤 추천상품</h4>
+                <div class="insert">
+                    레코픽영역
+                </div>
+            </div>
+        </section>
+
+        <section id="product-info">
+            <div class="container">
+                <ul class="tabs">
+                    <li><a class="active" href="#product-info">상품상세정보</a></li>
+                    <li><a href="#delivery">배송/반품/환불</a></li>
+                    <li><a href="#comment">상품평</a></li>
+                    <li><a href="#qna">상품Q&A</a></li>
+                </ul>
+                <div class="content">
+                    <h4 class="sr-only">상품상세정보</h4>
+
+                    상품설명이 들어갑니다.
+                    <img src="http://www.gifpng.com/1020x600" alt="상품설명이미지">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="delivery">
+            <div class="container">
+                <ul class="tabs">
+                    <li><a href="#product-info">상품상세정보</a></li>
+                    <li><a class="active" href="#delivery">배송/반품/환불</a></li>
+                    <li><a href="#comment">상품평</a></li>
+                    <li><a href="#qna">상품Q&A</a></li>
+                </ul>
+
+                <div class="content">
+                    <h4>배송/반품/환불 안내</h4>
+                    <ul>
+                        <li>
+                            <i class="fa fa-truck" aria-hidden="true"></i>
+                            <p>구입하신 상품이 배송지로 운반도중 상품이 손상된 경우, 주문한 상품과 다른 상품이 배달된 경우,</p>
+                            <p>약속한 상품이 인도시기보다 늦게배달된 경우 및 하자가 있는 경우(훼손,불량,변질,표기사항 미기재 등) 에는</p>
+                            <p><strong>교환이나 반품을 요청하시면 상품을 받으신 후 7일 이내에 즉각 반품 및 환불 처리</strong>해 드리겠습니다.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-exchange" aria-hidden="true"></i>
+                            <p>단, 고객의 책임있는 사유에 의한 반품(고객의 변심 등)일 경우에는 고객이 반품에 소요되는 운송비를 부담하여야 합니다.</p>
+                            <p>이외의 운송비는 판매자가 부담합니다.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                            <p>교환/반품/환불문의는</p>
+                            <p><strong>이제주몰 고객센터(064 - 751 - 3320)</strong>로 문의해 주시기 바랍니다.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="comment">
+            <div class="container">
+                <ul class="tabs">
+                    <li><a href="#product-info">상품상세정보</a></li>
+                    <li><a href="#delivery">배송/반품/환불</a></li>
+                    <li><a class="active" href="#comment">상품평</a></li>
+                    <li><a href="#qna">상품Q&A</a></li>
+                </ul>
+
+                <div class="content">
+                    <h4 class="sr-only">상품평 리스트</h4>
+                    <p class="comment-info">전체 <strong>22</strong>건</p>
+                    <table class="view-comment">
+                        <thead>
+                            <tr>
+                                <th>번호</th>
+                                <th>상품평</th>
+                                <th>만족도</th>
+                                <th>작성자</th>
+                                <th>작성일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="num">8</td>
+                                <td class="text">적극추천합니다!</td>
+                                <td>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </td>
+                                <td>emr****</td>
+                                <td>2016.10.03</td>
+                            </tr>
+                            <tr>
+                                <td class="num">7</td>
+                                <td class="text">적극추천합니다!</td>
+                                <td>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </td>
+                                <td>emr****</td>
+                                <td>2016.10.03</td>
+                            </tr>
+                            <tr>
+                                <td class="num">6</td>
+                                <td class="text">적극추천합니다!</td>
+                                <td>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                </td>
+                                <td>emr****</td>
+                                <td>2016.10.03</td>
+                            </tr>
+                            <tr>
+                                <td class="num">5</td>
+                                <td class="text">적극추천합니다!</td>
+                                <td>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </td>
+                                <td>emr****</td>
+                                <td>2016.10.03</td>
+                            </tr>
+                            <tr>
+                                <td class="num">4</td>
+                                <td class="text">적극추천합니다!</td>
+                                <td>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star on" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </td>
+                                <td>emr****</td>
+                                <td>2016.10.03</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <p class="btn-area comment"> <button class="btn btnM sub">상품평쓰기</button></p>
+                    <div class="reply-write">
+                        <div class="stars">
+                            <h5>별점선택</h5>
+                            <button data="1"><i class="fa fa-star" aria-hidden="true"></i></button>
+                            <button data="2"><i class="fa fa-star" aria-hidden="true"></i></button>
+                            <button data="3"><i class="fa fa-star" aria-hidden="true"></i></button>
+                            <button data="4"><i class="fa fa-star" aria-hidden="true"></i></button>
+                            <button data="5"><i class="fa fa-star" aria-hidden="true"></i></button>
+                        </div>
+                        <textarea>
+
+                        </textarea>
+                        <button class="btn">글쓰기완료</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+                <section id="qna">
+                    <div class="container">
+                        <ul class="tabs">
+                            <li><a href="#product-info">상품상세정보</a></li>
+                            <li><a href="#delivery">배송/반품/환불</a></li>
+                            <li><a href="#comment">상품평</a></li>
+                            <li><a class="active" href="#qna">상품Q&A</a></li>
+                        </ul>
+
+                        <div class="content">
+                            <h4 class="sr-only">상품평 리스트</h4>
+                            <p class="comment-info">전체 <strong>22</strong>건</p>
+                            <table class="view-comment">
+                                <thead>
+                                    <tr>
+                                        <th>번호</th>
+                                        <th>문의내용</th>
+                                        <th>답변상태</th>
+                                        <th>작성자</th>
+                                        <th>작성일</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="num">8</td>
+                                        <td class="text">질문있습니다!</td>
+                                        <td class="re-ok">
+                                            답변완료
+                                        </td>
+                                        <td>emr****</td>
+                                        <td>2016.10.03</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="num">7</td>
+                                        <td class="text">질문있습니다!</td>
+                                        <td>
+                                            대기
+                                        </td>
+                                        <td>emr****</td>
+                                        <td>2016.10.03</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="num">6</td>
+                                        <td class="text">질문있습니다!</td>
+                                        <td>
+                                            대기
+                                        </td>
+                                        <td>emr****</td>
+                                        <td>2016.10.03</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="num">5</td>
+                                        <td class="text">질문있습니다!</td>
+                                        <td>
+                                            대기
+                                        </td>
+                                        <td>emr****</td>
+                                        <td>2016.10.03</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="num">4</td>
+                                        <td class="text">질문있습니다!</td>
+                                        <td>
+                                            대기
+                                        </td>
+                                        <td>emr****</td>
+                                        <td>2016.10.03</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                            <p class="btn-area comment"> <button class="btn btnM sub">질문작성</button></p>
+                            <div class="reply-write">
+                                <div class="stars">
+                                    <h5>별점선택</h5>
+                                    <button data="1"><i class="fa fa-star" aria-hidden="true"></i></button>
+                                    <button data="2"><i class="fa fa-star" aria-hidden="true"></i></button>
+                                    <button data="3"><i class="fa fa-star" aria-hidden="true"></i></button>
+                                    <button data="4"><i class="fa fa-star" aria-hidden="true"></i></button>
+                                    <button data="5"><i class="fa fa-star" aria-hidden="true"></i></button>
+                                </div>
+                                <textarea>
+
+                                </textarea>
+                                <button class="btn">글쓰기완료</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
 
 
 
