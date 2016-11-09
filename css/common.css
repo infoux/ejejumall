@@ -30,7 +30,12 @@ input[type=text].inputS,
 input[type=password].inputS {}
 
 input[type=text].inputM,
-input[type=password].inputM {}
+input[type=password].inputM {
+    display:inline-block;
+    height:32px;
+    line-height:32px;
+    margin-bottom:4px;
+}
 
 input[type=text].inputB,
 input[type=password].inputB {
@@ -50,6 +55,10 @@ input[type=password].inputB {
     padding: 10px 10px;
 }
 
+.center  {
+    text-align:center;
+}
+
 .btn {
     display: inline-block;
     font-weight: 400;
@@ -66,7 +75,7 @@ input[type=password].inputB {
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 4px;
+
 }
 
 
@@ -1074,7 +1083,7 @@ section.foot-banner li{
 
 #content.sub  h3 {
     margin-top:30px;
-    font-size:24px;
+    font-size:28px;
     font-weight:600;
 }
 
@@ -2107,7 +2116,204 @@ section.sub-recopick .insert {
     padding-left:50px;
 }
 
+#content.sub .my-data .container {
+    border:1px solid #eee;
+    background:#efefef;
+    margin:20px auto 40px;
+    padding:20px;
+    text-align:center;
+}
 
+#content.sub .my-data h4 {
+    display:inline-block;
+    font-size:30px;
+    margin-right:50px;
+}
+#content.sub .my-data h4 strong {
+    color:#3366cc;
+}
+
+#content.sub .my-data .benefit {
+    display:inline-block;
+}
+
+#content.sub .my-data .benefit p.point,
+#content.sub .my-data .benefit p.coupon {
+    display:inline-block;
+    vertical-align:top;
+    background:#fff;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    text-align:center;
+    padding-top:30px;
+    font-size:16px;
+    margin-right:10px;
+}
+
+#content.sub .my-data .benefit p.coupon-link {
+    display:inline-block;
+}
+#content.sub .my-data .benefit a {
+    display:block;
+    background:#3366cc;
+    color:#fff;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    text-align:center;
+    padding-top:40px;
+    font-size:16px;
+}
+
+#content.sub .my-data .benefit p strong {
+    display:block;
+    font-weight:600;
+    padding-top:4px;
+    color:#3366cc;
+}
+
+#content.sub .my-order,
+#content.sub .discount,
+#content.sub .discount-more,
+#content.sub .total {
+    margin-bottom:40px;
+}
+
+#content.sub .order-table {
+    width:100%;
+    border-top:2px solid #333;
+    margin-top:20px;
+}
+
+#content.sub .order-table th {
+    background:#f4f4f4;
+}
+
+#content.sub .order-table th,
+#content.sub .order-table td {
+    position:relative;
+    border-bottom:1px solid #eee;
+    padding:14px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+#content.sub .order-table h4 {
+    margin:0;
+}
+
+#content.sub .order-table td.images {
+    width:100px;
+}
+
+#content.sub .order-table td.images img {
+    width:80px;
+    height:80px;
+}
+
+#content.sub .order-table .name strong {
+    font-size:16px;
+    font-weight:600;
+    text-align:left;
+}
+
+#content.sub .order-table .sum {
+    font-weight:600;
+    color:#3366cc;
+}
+
+#content.sub .order-table .point {
+    color:#ff6600;
+}
+
+#content.sub .order-table p {
+    display:inline-block;
+    height:32px;
+    line-height:32px;
+    padding:0 10px;
+}
+
+#content.sub .order-table p strong {
+    font-weight:600;
+    color:#3366cc;
+}
+
+#content.sub .discount div.sum {
+    padding:20px;
+    background:#f9f9f9;
+    text-align:center;
+    font-size:18px;
+}
+
+#content.sub .discount div.sum p {
+    display:inline-block;
+}
+
+#content.sub .discount div.sum i {
+    margin:0 20px;
+}
+
+#content.sub .discount div.sum strong{
+    font-weight:600;
+    color:#dd2a2a;
+}
+
+#content.sub .discount-more input[type="text"] {
+    width:220px;
+}
+
+#content.sub .discount-more button {
+    height:32px;
+    vertical-align:top;
+    padding:0 10px;
+}
+
+#content.sub .discount-more input[type="checkbox"] {
+    margin-right:8px;
+}
+
+#content.sub .discount-more input[type="checkbox"]:checked + label {
+    color:#3366cc;
+    font-weight:bold;
+}
+
+#content.sub .total table td {
+    position:relative;
+    padding:30px 0;
+}
+
+#content.sub .total table i {
+    font-size:30px;
+    position:absolute;
+    left:-15px;
+    top:28px;
+    color:#bbb;
+}
+
+#content.sub .total table strong {
+    font-weight:800;
+    font-size:24px;
+}
+
+
+#content.sub .info-table ul {
+    margin-top:10px;
+    font-size:12px;
+}
+
+#content.sub .info-table li {
+    padding:0 0 6px 10px;
+}
+
+#content.sub .info-table li:before {
+    content:"·";
+    padding-right:6px;
+}
+
+#content.sub .info-table strong {
+    color:#3366cc;
+}
 
 
 
